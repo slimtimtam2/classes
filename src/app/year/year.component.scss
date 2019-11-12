@@ -1,0 +1,26 @@
+.box{
+	width:100px;
+}
+.pink{
+    background: #CC5E8E;
+}
+.year-title {
+    color: gainsboro;
+    text-align: center;
+    padding-top: 10px;
+}
+.year-bound{
+    width:100px;
+    padding: 2em;
+}
+.wrapper {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(100, 50px);
+}
+.bounds {
+   margin-top: 180px;
+   margin-left: 150px;
+ 
+}

@@ -14,5 +14,8 @@
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
-  ]
+  ],
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
+   "allowSyntheticDefaultImports": true
 }
