@@ -10,6 +10,7 @@ export class DataComponent implements OnInit {
   @Input()className:String;
   @Input()classGrade:String;
   @Input()classDifficulty:String;
+  @Input()classMajor:String;
   constructor() { 
     
   }

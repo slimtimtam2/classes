@@ -1,18 +1,19 @@
 
 
 <div class="wrapper bounds" > 
-        <div *ngFor="let semester of splitArrayOfClasses"> 
-            <div *ngFor="let class of semester">
+        <div *ngFor="let semester of splitArrayOfClasses" class="test"> 
+            <div *ngFor="let class of semester" >
                     <!-- {{class.name}} -->
-                    <data [className]='class.name' [classGrade]='class.grade'></data>
+                    <data [className]='class.name' [classGrade]='class.grade' [classMajor]='class.major'></data>
             </div>
             <div class="year-title ">
                     {{semester[0].semester}}
+                    {{semester[0].year}}
                 </div>
-            <div class="year-title ">
-               {{semester[0].year}}
-            </div>
         </div>
+        <div>
+                sort by
+            </div>
     
 </div>
     

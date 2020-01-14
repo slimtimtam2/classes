@@ -1,5 +1,18 @@
-<div class="box red tooltip">
-        <span class="tooltiptext">{{className}} {{classGrade}}</span>
+
+<div *ngIf="classMajor === 'art'">
+        <div class="box red tooltip">
+                <span class="tooltiptext">{{className}} {{classGrade}}</span>
+        </div>
+</div>
+<div *ngIf="classMajor === 'cs'">
+        <div class="box green tooltip">
+                <span class="tooltiptext">{{className}} {{classGrade}}</span>
+        </div>    
+</div>
+<div *ngIf="classMajor === 'both'">
+        <div class="box blue tooltip">
+                <span class="tooltiptext">{{className}} {{classGrade}}</span>
+        </div>      
 </div>
 
 

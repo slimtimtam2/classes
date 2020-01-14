@@ -13,10 +13,15 @@
     width:100px;
     padding: 2em;
 }
+.test{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
 .wrapper {
     width: 600px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 50px;
     grid-template-columns: repeat(100, 50px);
 }
 .bounds {
